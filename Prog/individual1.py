@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-
+#Написать программу, которая считывает текст из файла и выводит на экран только цитаты,
+#то есть предложения, заключенные в кавычки.
 if __name__ == "__main__":
     with open("ind1.txt", "r", encoding="utf-8") as f:
         sentences = f.readlines()
